@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Georgia', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-image: url('bg4.png');
+            background-size: cover;
+            background-position: center center;
+            color: white;
+            text-align: center;
+            padding: 100px 15px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        nav {
+            background: lightskyblue;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: white;
+            color: lightskyblue;
+            border-radius: 5px;
+        }
+
+        fieldset {
+            border: 2px solid lightskyblue;
+            padding: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background: lightskyblue;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Dynamics</h1>
+        <p>Welcome to my portfolio!</p>
+    </header>
+    
+    <nav>
+        <a href="my-portfolio.html">Home</a>
+        <a href="personal-information.html">Personal Information</a>
+        <a href="my-skills.html">Skills and Seminars</a>
+        <a href="educational-background.html">Educational Background</a>
+        <a href="feedback-page.html">Feedback/Contact</a>
+        <a href="project-page.html">Projects</a>
+        <a href="photo-gallery.html">Photo Gallery</a>
+    </nav>
+        <fieldset>
+            <legend><h1>My Projects</h1></legend>
+                <div class="content"></div>
+                <div class="info-text">
+                    <p><strong>Project 1 Title:</strong> Grade Calculator</p>
+                    <p>
+                    A grade calculator has given for our pre-lim project in Fundamentals of Programming. 
+                    This calculator is use to compute our prelim grade and our requirement grades at midterm and finalterm to achieve the passing grade on 1st semester.
+                    </p>
+                    <p><strong>Technology Used:</strong>Laptop, VSCode(Python), and GitHub</p>
+
+                    <p><strong>Project 2 Title:</strong>Text File Comparator</p>
+                    <p>
+                    A piece of software or a feature that shows and highlights any discrepancies between two text files by comparing their contents per lines.
+                    </p>
+                    <p><strong>Technology Used</strong>Laptop, VSCode(Python), and GitHub</p>
+                    
+                    <p><strong>Project 3 Title:</strong>Discrete Math AI Chatbot</p>
+                    <p>
+                    An AI ChatBot that casually give alot of details, answers, and etc. about Discrete Math. It only knows about discrete math only,
+                    usaully if the question is not about dicrete math it will reply "Sorry, I only know Discrete Math only".
+                    </p>
+                    <p><strong>Technology Used</strong>Laptop, VSCode(Python), and Google AI Studio</p>
+                   
+
+
+                </div>
+            </div>
+        </fieldset>
+    <div class="content">
+        <h2>Check it out!</h2>
+        <p>Explore different sections of my portfolio using the navigation menu above.</p>
+    </div>
+    <footer>
+        <p>Thank you for visiting</p>
+    </footer>
+</body>
+</html>

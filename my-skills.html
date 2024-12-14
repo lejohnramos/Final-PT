@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Georgia', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-image: url('bg4.png');
+            background-size: cover;
+            background-position: center center;
+            color: white;
+            text-align: center;
+            padding: 100px 15px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            padding: 15px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        nav {
+            background: lightskyblue;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: white;
+            color: lightskyblue;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background: lightskyblue;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+        }
+
+        .skill-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid lightskyblue;
+        }
+
+        .skill-item p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        
+        .seminars-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .seminar-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+        }
+
+        .seminar-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid lightskyblue;
+        }
+
+        .seminar-item p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Dynamics</h1>
+        <p>Welcome to my portfolio!</p>
+    </header>
+
+    
+    <nav>
+        <a href="my-portfolio.html">Home</a>
+        <a href="personal-information.html">Personal Information</a>
+        <a href="my-skills.html">Skills and Seminars</a>
+        <a href="educational-background.html">Educational Background</a>
+        <a href="feedback-page.html">Feedback/Contact</a>
+        <a href="project-page.html">Projects</a>
+        <a href="photo-gallery.html">Photo Gallery</a>
+    </nav>
+
+    <div class="content">
+        
+        <fieldset>
+            <legend><h1>My Skills</h1></legend>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <img src="web.jpg" alt="Web Development">
+                    <p><strong>Web Development</strong></p>
+                </div>
+                <div class="skill-item">
+                    <img src="wcoding.jpg" alt="Programming">
+                    <p><strong>Programming (Python)</strong></p>
+                </div>
+                <div class="skill-item">
+                    <img src="cook.jpg" alt="Database Management">
+                    <p><strong>Cooking</strong></p>
+                </div>
+                <div class="skill-item">
+                    <img src="team.jpg" alt="Database Management">
+                    <p><strong>Teamwork</strong></p>
+                </div>
+                <div class="skill-item">
+                    <img src="comp parts.jpg" alt="Database Management">
+                    <p><strong>Building Computers</strong></p>
+                </div>
+            </div>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend><h1>Seminars I Attended</h1></legend>
+            <div class="seminars-container">
+                <div class="seminar-item">
+                    <img src="Sec Tom.jpg" alt="Data Privacy and Cyber Awareness">
+                    <p><strong>Data Privacy and Cyber Awareness Campaign</strong></p>
+                </div>
+                <div class="seminar-item">
+                    <img src="Dr. Hsuan.jpg" alt="Artificial Intelligence">
+                    <p><strong>Artificial Intelligence and Its Applications</strong></p>
+                </div>
+                <div class="seminar-item">
+                    <img src="cyber.jpg" alt="Cybersecurity in the Digital Age">
+                    <p><strong>Securing Tomorrow: The Role of Cybersecurity Professionals</strong></p>
+                </div>
+            </div>
+        </fieldset>
+
+    </div>
+    <div class="content">
+        <h2>Check it out!</h2>
+        <p>Explore different sections of my portfolio using the navigation menu above.</p>
+    </div>
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+</body>
+</html>
